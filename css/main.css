@@ -1,0 +1,196 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i); 
+
+
+
+	@font-face 
+	{font-family: 'Paris'; src:url(../Paris.otf);}
+
+	@font-face 
+	{font-family: 'NewYork'; src:url(../New_York.otf);}
+
+
+
+
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translate3d(0, 100%, 0);
+      }
+
+      to {
+        opacity: 1;
+        transform: none;
+      }
+    }
+
+.fadeInUp {
+  animation-name: fadeInUp;
+}
+
+@keyframes fadein {
+    from { opacity: 0.5; }
+    to   { opacity: 1; }
+}
+
+/* Firefox */
+@-moz-keyframes fadein {
+    from { opacity: 0.5; }
+    to   { opacity: 1; }
+}
+
+/* Safari and Chrome */
+@-webkit-keyframes fadein {
+    from { opacity: 0.5; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0.5; }
+    to   { opacity: 1; }
+}
+
+/* Opera */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Fade in tabs */
+@-webkit-keyframes fadeEffect {
+    from {opacity: 0.5;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+    from {opacity: 0.5;}
+    to {opacity: 1;}
+}
+
+
+
+body {background: #fff;   }
+
+
+*{box-sizing: border-box;} 
+*{margin: 0px; padding: 0px; border: none; outline: none;}
+
+
+
+                            /******** C O N T E N T ********/
+
+
+.content-holder {background-color: #000000;  position: relative; margin: auto; height: calc(100vh - 80px); margin: 40px; }
+
+.video { margin: 0 auto; padding-top: 22vh; text-align: center; z-index: 1000; }
+
+.content-box {background-color: #d3ff48; width: auto; height: calc(100vh - 80px); z-index: -1000; margin: 40px; position: relative; }
+
+
+.logo{background: url(../img/logo1.svg)no-repeat center; width: 100%; height: 50%; margin: auto; top: 23%; position: absolute;}
+
+.comp {background-color: #4af2ff; width: 50%; height: calc(70vh - 80px); z-index: -1001;  position: relative;  display: inline-block; vertical-align: middle;}
+.comp1 {background: url(../img/logo2.svg)no-repeat center; width: 100%; height: 40%; position: absolute; top: 30%;}
+.comp1:hover { opacity: 0}
+
+.bizz { width: auto; height: calc(100vh - 80px); z-index: -1000; margin: 40px; position: relative; }
+.bizz1 { background: url(../img/biz5.jpg) no-repeat center; width: 100%;     height: 800px; background-size: 100%; position: absolute;}
+
+.comp2 {background-color: #8b2a96; width: 50%; height: calc(70vh - 80px); z-index: -1001;  position: relative; display: inline-block;}
+.comp3 {background: url(../img/logo3.svg)no-repeat center; width: 100%; position: absolute; top: 30%; }
+                            /******** C O M P O N E N T S ********/
+
+.comp-holder {margin-top: 150px; display: flex; margin: 40px;}
+
+.homer {padding-right: 22%; padding-bottom: 20%; }
+
+
+
+
+
+ @media all and (max-width: 1199px) {
+
+  iframe[src*=vimeo] {width: 800px;}
+
+.content-holder { margin: 30px; }
+
+.bizz { width: auto; height: calc(100vh - 80px); z-index: -1000; margin: 30px; position: relative; }
+
+.content-box {background-color: #d3ff48; width: auto; height: calc(100vh - 80px); z-index: -1000; margin: 30px; position: relative; }
+
+.bizz1 { background: url(../img/biz5.jpg) no-repeat center; width: 100%;     height: 600px; background-size: 100%; position: absolute;}
+
+
+ }
+
+
+ @media all and (max-width: 900px) {
+
+  iframe[src*=vimeo] {width: 600px;}
+
+.content-holder { margin: 20px; }
+
+.bizz { width: auto; height: calc(100vh - 80px); z-index: -1000; margin: 20px; position: relative; }
+
+.content-box {background-color: #d3ff48; width: auto; height: calc(100vh - 80px); z-index: -1000; margin: 20px; position: relative; }
+
+.bizz1 { background: url(../img/biz5.jpg) no-repeat center; width: 100%;     height: 500px; background-size: 100%; position: absolute;}
+
+
+ }
+
+
+
+@media all and (max-width: 768px) {
+
+    iframe[src*=vimeo] {width: 500px;}
+
+.content-holder { margin: 20px; }
+
+.bizz1 { background: url(../img/biz5.jpg) no-repeat center; width: 100%;     height: 400px; background-size: 100%; position: absolute;}
+
+
+}
+
+
+
+@media all and (max-width: 640px) {
+
+iframe[src*=vimeo] {width: 400px;}
+
+.content-holder { margin: 10px; }
+
+.bizz { width: auto; height: calc(100vh - 80px); z-index: -1000; margin: 10px; position: relative; }
+
+.content-box {background-color: #d3ff48; width: auto; height: calc(50vh - 80px); z-index: -1000; margin: 10px; position: relative; }
+
+.bizz1 { background: url(../img/biz5.jpg) no-repeat center; width: 100%;     height: 400px; background-size: 100%; position: absolute;}
+
+                  }
+
+
+
+             /************ F O O T E R ************/
+
+
+.theend {clear: both; width: 20px; height: 400px;}
+.copyr {text-align: center;}
+.copyr p {font-size: 10px; color: #8b909f;  margin-bottom:10px; }
+
+
+
+
+.active{
+  font-weight: bold !important;
+  transition:all 0.3s ease;
+}
+
+
+
+
+
+
+
+
+
+
