@@ -156,15 +156,17 @@ body {background: #fff;   }
 
 @media all and (max-width: 640px) {
 
-iframe[src*=vimeo] {width: 400px;}
+.video{padding-top: 0;}
+
+iframe[src*=vimeo] {width: 300px;}
 
 .content-holder { margin: 10px; }
 
-.bizz { width: auto; height: calc(100vh - 80px); z-index: -1000; margin: 10px; position: relative; }
+.bizz { width: auto; height: 200px; z-index: -1000; margin: 10px; position: relative; }
 
 .content-box {background-color: #d3ff48; width: auto; height: calc(50vh - 80px); z-index: -1000; margin: 10px; position: relative; }
 
-.bizz1 { background: url(../img/biz5.jpg) no-repeat center; width: 100%;     height: 400px; background-size: 100%; position: absolute;}
+.bizz1 { background: url(../img/biz5.jpg) no-repeat center; width: 100%;     height: 200px; background-size: 100%; position: absolute;}
 
                   }
 
